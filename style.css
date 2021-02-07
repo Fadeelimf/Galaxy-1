@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ddd;
+    height: auto;
+}
+img{
+    width: 100%;
+    display: block;
+}
+h1{
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+h3{
+    font-weight: 400;
+    font-size: 1rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+main{
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0 , 0, 0, 0.1),
+    -30px 0px 40px rgba(0 , 0, 0, 0.1);
+}
+.header{
+    background: #fff;
+}
+#header-text{
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+#header-text h2{
+    color: #888;
+}
+
+
+
+.btn{
+    padding: 0.5rem 2rem;
+    border: 1px solid #333;
+    display: inline-block;
+    margin: 2rem 0;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background 500ms ease-in-out;
+    scroll-behavior: smooth 900ms;
+
+}
+a:hover{
+    background: #ccc;
+}
+
+
+#header-images{
+    background: url('./images/nathan-dumlao-De8wMYoSSBc-unsplash.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    flex: 0 1 60vw;
+    margin: 0;
+}
+#heading{
+    text-align: center;
+    background: black;
+    padding: 3rem;
+    color: #fff;
+}
+#heading h2{
+    color: #fff;
+    border-left: dotted #fff 1px ;
+    border-right: dotted #fff 1px ;
+    display: inline-block;
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+
+.text-box{
+    text-align: center;
+    background: #ccc;
+   
+}
+.text-box h2{
+   font-size: 1.5rem;
+}
+
+footer{
+    text-align: center;
+    margin-top: 5rem;
+    background: #888;
+    padding: 10px 0;
+    margin: auto;
+}
+/* screen sizes 500px up  */
+
+@media(min-width: 500px){
+    .header{
+        display: flex;
+        height: 100%;
+    }
+    #header-text{
+        height: 100vh;
+    }
+    #header-images{
+        height: 100vh;
+    }
+}
+
+/* 700px scree up  */
+@media(min-width: 500px){
+    .btn{
+        padding: 1rem 3rem;
+    }
+}   
+
+
